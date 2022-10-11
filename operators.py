@@ -49,20 +49,62 @@
 
 # String Methods are available
 
-# use var = string "asfdsfaasdfsadfsadf                                 "
-white_space = "lot's of spaces at the end                                "
-print(len(white_space))
-# strip() removes the white spaces at the end of the string
-print(len(white_space.strip())) # this will remove all the white spaces at the end
-print(print(len(white_space)))
+# # use var = string "asfdsfaasdfsadfsadf                                 "
+# white_space = "lot's of spaces at the end                                "
+# print(len(white_space))
+# # strip() removes the white spaces at the end of the string
+# print(len(white_space.strip())) # this will remove all the white spaces at the end
+# print(print(len(white_space)))
+#
+# Example_text = "shahrukh here's sOme text with lOt's of text"
+# # print(Example_text.count("text"))
+# print(Example_text)
+# print(Example_text.lower())
+# print(Example_text.upper())
+# print(Example_text.capitalize())
+# print(Example_text.replace("with", ","))
 
-Example_text = "shahrukh here's sOme text with lOt's of text"
-# print(Example_text.count("text"))
-print(Example_text)
-print(Example_text.lower())
-print(Example_text.upper())
-print(Example_text.capitalize())
-print(Example_text.replace("with", ","))
+# user data input
+first_name = "shahrukh" # string
+last_name = "khan" # string
+salary = 40 # int
+# print(first_name)
+# print(last_name)
+# print(first_name + last_name)
+print(first_name + " " + last_name + " " + str(salary)) # cast int to string using string()
+# F-string
+print(f"Hello {first_name} {last_name} ") # Python 3.5/6 or above
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
