@@ -64,3 +64,5 @@ print("Hello dear " + name)
 - now let's send this new data to Github
 - `git push -u origin main`
 - `git status`
+- add `.gitignore` then `add all dependencies in this file to ensure not pushed to github`
+- To pull changes from Git-hub `git pull`
